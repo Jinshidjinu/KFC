@@ -1,0 +1,7 @@
+import PeriPeriLeg from './assets/productphotos/PeriPeri-Leg-Pieces.jpg'
+import SmokyRedChicken from './assets/productphotos/SmokyRedChecken.jpg'
+import AlluCombo from './assets/productphotos/AlluCombo.jpg'
+import AllChickenBox from './assets/productphotos/AllChickenBox.jpg'
+import BucketMeal from './assets/productphotos/BuddtMeal.jpg'
+import classicChicken from './assets/productphotos/classicChicken.jpg'
+import StayHomeBucket from './assets/productphotos/StayHomeBucket.jpg'
