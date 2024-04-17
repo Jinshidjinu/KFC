@@ -27,10 +27,7 @@ const Hero = () =>{
     </div>
           
         </div>
-
         </div>
-
-
         <div className="rounded-xl bg-food-image bg-center h-[300px] sm:h-full"></div>
     </div>
 

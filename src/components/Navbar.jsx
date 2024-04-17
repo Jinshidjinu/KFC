@@ -3,7 +3,7 @@ import {AiOutlineClose,AiOutlineMenu, AiOutlineShoppingCart} from 'react-icons/a
 import kfcLogo from '../assets/Icons/kfcLogo.492728c6.svg'
 
 
-const Navbar = () => {
+const Navbar = ({toggleCartVisibility}) => {
 
     const [nav,setNav]=useState(false)
     const handleNav = ()=>{
@@ -22,7 +22,7 @@ const Navbar = () => {
          </button>
       </div>
 
-      <a className="p-5 my-auto text-2xl text-orange-700"><AiOutlineShoppingCart/></a>
+      <button onClick={toggleCartVisibility} className="p-5 my-auto text-2xl text-orange-700"><AiOutlineShoppingCart /></button>
        <ul className="hidden md:flex">
         <li className="p-5"><a href="#food">Food</a></li>
         <li className="p-5"><a href="#download">Download</a></li>
@@ -47,14 +47,14 @@ const Navbar = () => {
                     <span className="relative z-10">Sign Up</span>
                 </button>
             </div>
+
+
+         
         </ul>
-
-
      </div>
-
-
     </div>
   );
 };
 
 export default Navbar
+
