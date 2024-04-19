@@ -67,7 +67,7 @@ const Food = ({ isCartVisible }) => {
       <h2 className="text-3xl p-4 w-full text-start">Food</h2>
       <div className="grid lg:grid-cols-4 place-items-center gap-6">
         {products.map(product => (
-          <div key={product.id} className={`w-[380px] p-5 bg-white relative  rounded-lg glass transition-all duration-200 hover:scale-110`}>
+          <div key={product.id} className="w-[380px] p-5 bg-white rounded-lg glass transition-all duration-200 hover:scale-110">
             <img className="rounded-lg w-[400px] h-[220px] object-cover" src={product.productImage} alt="" />
             <div className="flex flex-row justify-between items-center mt-5 gap-3">
               <h2 className="font-semibold text-xl">{product.productName}</h2>
