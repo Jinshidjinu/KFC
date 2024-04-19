@@ -1,13 +1,13 @@
 import PeriPeriLeg from './assets/productphotos/PeriPeri-Leg-Pieces.jpg'
-import SmokyRedChicken from './assets/productphotos/SmokyRedChecken.jpg'
+import SmokyChicken from './assets/productphotos/SmokyRedChecken.jpg'
 import AlluCombo from './assets/productphotos/AlluCombo.jpg'
 import AllChickenBox from './assets/productphotos/AllChickenBox.jpg'
 import BucketMeal from './assets/productphotos/BuddtMeal.jpg'
 import classicChicken from './assets/productphotos/classicChicken.jpg'
 import StayHomeBucket from './assets/productphotos/StayHomeBucket.jpg'
 import ChickenRoll from './assets/productphotos/ChickenRoll.jpg'
-export const products= [
 
+export const products= [
     {
         id:1,
         productName :"PeriPeriLeg",
@@ -16,9 +16,9 @@ export const products= [
     },
     {
         id:2,
-        productName:"SmokyRedChicken",
+        productName:"SmokyChicken",
         price:20.88,
-        productImage:SmokyRedChicken
+        productImage:SmokyChicken
     },
     {
         id:3,
@@ -46,7 +46,7 @@ export const products= [
      },
      {
         id:7,
-        productName:"StayHomeBucket",
+        productName:"StayBucket",
         price:29.89,
         productImage:StayHomeBucket
      },
@@ -56,7 +56,5 @@ export const products= [
         price : 12.99,
         productImage : ChickenRoll
      }
-
-
 
 ]
