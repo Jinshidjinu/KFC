@@ -14,7 +14,7 @@ function App() {
   }
   return (
     <div>
-      <Navbar  toggleCartVisibility = {toggleCartVisibility}/>
+      <Navbar  toggleCartVisibility={toggleCartVisibility}/>
       <Hero />
       <Food isCartVisible={isCartVisible}/>
 

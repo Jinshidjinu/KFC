@@ -51,7 +51,7 @@ export const products= [
         productImage:StayHomeBucket
      },
      {
-        id:1,
+        id:8,
         productName :"ChickenRoll",
         price : 12.99,
         productImage : ChickenRoll

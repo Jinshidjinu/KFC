@@ -42,7 +42,7 @@ const Food = ({ isCartVisible }) => {
   return (
     <div className="my-12 max-w-[1600px] place-items-center lg:mx-auto flex flex-col gap-12" id="food">
       {isCartVisible && (
-        <div className="{'z-10 fixed p-4 right-0 top-[80px] bg-orange-600 w-96 h-screen overflow-y-scroll'}">
+        <div className={'z-10 fixed p-4 right-0 top-[80px] bg-orange-600 w-96 h-screen overflow-y-scroll'}>
           <p className="text-2xl font-bold">Your Order: ${getTotalAmount()}</p>
           {products.map(product => {
             if (cartItems[product.id] !== 0) {
