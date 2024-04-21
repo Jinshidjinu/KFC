@@ -4,6 +4,7 @@ import Hero from "./components/Hero"
 import Food from './components/Food';
 import Easy  from './components/Easy';
 import Download from './components/Download';
+import Footer from './components/Footer';
 
 import { useState } from 'react';
 
@@ -21,6 +22,7 @@ function App() {
       <Food isCartVisible={isCartVisible}/>
       <Easy/>
       <Download/>
+      <Footer/>
 
     </div>
   );

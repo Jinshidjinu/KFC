@@ -8,6 +8,7 @@ export default {
        backgroundImage:{ 'food-image':"url('/src/assets/productphotos/AlluCombo.jpg')",'food-image-2':"url('/src/assets/productphotos/classicChicken.jpg')" , 'jinu-image':"url('/src/assets/productphotos/RealChicken.webp')"},
         
     },
+
   },
   plugins: [],
 }
