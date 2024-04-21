@@ -42,7 +42,7 @@ const Food = ({ isCartVisible }) => {
   return (
     <div className="my-12 max-w-[1600px] place-items-center lg:mx-auto flex flex-col gap-12" id="food">
       {isCartVisible && (
-        <div className={'z-10 fixed p-4 right-0 top-[80px] bg-orange-600 w-96 h-screen overflow-y-scroll'}>
+        <div className={'z-10 fixed p-4 right-0 top-[80px] bg-cyan-900 text-white w-96 h-screen overflow-y-scroll'}>
           <p className="text-2xl font-bold">Your Order: ${getTotalAmount()}</p>
           {products.map(product => {
             if (cartItems[product.id] !== 0) {
@@ -55,7 +55,7 @@ const Food = ({ isCartVisible }) => {
                     <p>${product.price}</p>
                   </div>
                   <div className="absolute right-0 bottom-0 gap-2 font-bold">
-                    <button onClick={() => removeFromCart(product.id)} className="text-red-600 bg-red-300 hover:bg-red-600 hover:text-red-100 p-2 rounded">Remove</button>
+                    <button onClick={() => removeFromCart(product.id)} className="text-red-600 font-semibold bg-white-500 hover:bg-red-600 hover:text-red-100 p-2 rounded">Remove</button>
                   </div>
                 </div>
               );
@@ -64,7 +64,7 @@ const Food = ({ isCartVisible }) => {
         </div>
       )}
 
-      <h2 className="text-3xl p-4 w-full text-start">Food</h2>
+      <h2 className="text-3xl p-4 w-full text-start">Food 🍗🍔🍖🥩 </h2>
       <div className="grid lg:grid-cols-4 place-items-center gap-6">
         {products.map(product => (
           <div key={product.id} className="w-[380px] p-5 bg-white rounded-lg glass transition-all duration-200 hover:scale-110">

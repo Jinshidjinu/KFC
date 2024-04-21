@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero"
 import Food from './components/Food';
+import Easy  from './components/Easy';
 
 import { useState } from 'react';
 
@@ -17,6 +18,7 @@ function App() {
       <Navbar  toggleCartVisibility={toggleCartVisibility}/>
       <Hero />
       <Food isCartVisible={isCartVisible}/>
+      <Easy/>
 
     </div>
   );
